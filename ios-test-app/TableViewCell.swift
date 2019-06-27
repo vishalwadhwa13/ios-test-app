@@ -68,5 +68,11 @@ class TableViewCell: UITableViewCell {
         subtitle.text = subtitleText
         leftImageView.image = image
     }
+    
+    public func setData(cellData: CellData) {
+        titleLabel.text = cellData.title
+        subtitle.text = cellData.subtitle
+        leftImageView.image = cellData.image
+    }
 
 }

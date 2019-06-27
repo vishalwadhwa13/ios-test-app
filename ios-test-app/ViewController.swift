@@ -16,6 +16,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     let titles = ["1st", "2nd", "3rd", "4th"]
     let subtitles = ["a", "b", "c", "d"]
     
+    var cellArray: [CellData] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,12 +25,19 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 //        view.backgroundColor = .orange
 //        createLabel()
 //        createView()
+        loadDummyData()
         
         tableView.dataSource = self
         tableView.delegate = self
         createTableView()
         
         tableView.register(TableViewCell.self, forCellReuseIdentifier: cellReuseID)
+    }
+    
+    private func loadDummyData() {
+        for i in 0..<5 {
+            cellArray.append(CellData(title: "Restaurant \(i+1)", subtitle: "Cuisine \(i+1)", image: UIImage(named: "food1")))
+        }
     }
 
     func createLabel()  {
@@ -120,7 +128,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         let cell = tableView.dequeueReusableCell(withIdentifier: cellReuseID, for: indexPath) as! TableViewCell
         
-        cell.setData(titleText: titles[indexPath.row], subtitleText: subtitles[indexPath.row], image: UIImage())
+        cell.setData(cellData: cellArray[indexPath.row])
+//        cell.setData(titleText: titles[indexPath.row], subtitleText: subtitles[indexPath.row], image: UIImage())
         return cell
     }
     

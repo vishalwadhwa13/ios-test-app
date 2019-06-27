@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C546077522C4CDE300A69992 /* CellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C546077422C4CDE300A69992 /* CellData.swift */; };
 		C59F8DF522C33CE0008E88FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59F8DF422C33CE0008E88FE /* AppDelegate.swift */; };
 		C59F8DF722C33CE0008E88FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59F8DF622C33CE0008E88FE /* ViewController.swift */; };
 		C59F8DFA22C33CE0008E88FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C59F8DF822C33CE0008E88FE /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C546077422C4CDE300A69992 /* CellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellData.swift; sourceTree = "<group>"; };
 		C59F8DF122C33CE0008E88FE /* ios-test-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-test-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C59F8DF422C33CE0008E88FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C59F8DF622C33CE0008E88FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				C59F8DFD22C33CE2008E88FE /* LaunchScreen.storyboard */,
 				C59F8E0022C33CE2008E88FE /* Info.plist */,
 				C59F8E2722C358C8008E88FE /* TableViewCell.swift */,
+				C546077422C4CDE300A69992 /* CellData.swift */,
 			);
 			path = "ios-test-app";
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 				C59F8DF722C33CE0008E88FE /* ViewController.swift in Sources */,
 				C59F8E2822C358C8008E88FE /* TableViewCell.swift in Sources */,
 				C59F8DF522C33CE0008E88FE /* AppDelegate.swift in Sources */,
+				C546077522C4CDE300A69992 /* CellData.swift in Sources */,
 				C59F8E2622C34C1C008E88FE /* UIView+Layout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
