@@ -14,6 +14,8 @@
 		C59F8DFF22C33CE2008E88FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C59F8DFD22C33CE2008E88FE /* LaunchScreen.storyboard */; };
 		C59F8E0A22C33CE2008E88FE /* ios_test_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59F8E0922C33CE2008E88FE /* ios_test_appTests.swift */; };
 		C59F8E1522C33CE2008E88FE /* ios_test_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59F8E1422C33CE2008E88FE /* ios_test_appUITests.swift */; };
+		C59F8E2622C34C1C008E88FE /* UIView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59F8E2522C34C1C008E88FE /* UIView+Layout.swift */; };
+		C59F8E2822C358C8008E88FE /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59F8E2722C358C8008E88FE /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		C59F8E1022C33CE2008E88FE /* ios-test-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-test-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C59F8E1422C33CE2008E88FE /* ios_test_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_test_appUITests.swift; sourceTree = "<group>"; };
 		C59F8E1622C33CE2008E88FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C59F8E2522C34C1C008E88FE /* UIView+Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Layout.swift"; sourceTree = "<group>"; };
+		C59F8E2722C358C8008E88FE /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +102,13 @@
 			isa = PBXGroup;
 			children = (
 				C59F8DF422C33CE0008E88FE /* AppDelegate.swift */,
+				C59F8E2522C34C1C008E88FE /* UIView+Layout.swift */,
 				C59F8DF622C33CE0008E88FE /* ViewController.swift */,
 				C59F8DF822C33CE0008E88FE /* Main.storyboard */,
 				C59F8DFB22C33CE2008E88FE /* Assets.xcassets */,
 				C59F8DFD22C33CE2008E88FE /* LaunchScreen.storyboard */,
 				C59F8E0022C33CE2008E88FE /* Info.plist */,
+				C59F8E2722C358C8008E88FE /* TableViewCell.swift */,
 			);
 			path = "ios-test-app";
 			sourceTree = "<group>";
@@ -257,7 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C59F8DF722C33CE0008E88FE /* ViewController.swift in Sources */,
+				C59F8E2822C358C8008E88FE /* TableViewCell.swift in Sources */,
 				C59F8DF522C33CE0008E88FE /* AppDelegate.swift in Sources */,
+				C59F8E2622C34C1C008E88FE /* UIView+Layout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
