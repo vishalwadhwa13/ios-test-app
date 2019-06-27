@@ -44,6 +44,7 @@ class TableViewCell: UITableViewCell {
         leftImageView.layer.cornerRadius = 20
         leftImageView.layer.borderColor = UIColor.black.cgColor
         leftImageView.layer.borderWidth = 1.2
+        leftImageView.layer.masksToBounds = true
         
         leftImageView.set(.leading(contentView, padConst),
                           .sameTopBottom(contentView, padConst),

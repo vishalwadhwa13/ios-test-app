@@ -36,7 +36,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     private func loadDummyData() {
         for i in 0..<5 {
-            cellArray.append(CellData(title: "Restaurant \(i+1)", subtitle: "Cuisine \(i+1)", image: UIImage(named: "food1")))
+            cellArray.append(CellData(title: "Restaurant \(i+1)", subtitle: "Cuisine \(i+1)", image: UIImage(named: "food\(i+1)")))
         }
     }
 
@@ -121,7 +121,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return titles.count
+        return cellArray.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
