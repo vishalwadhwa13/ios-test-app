@@ -1,5 +1,11 @@
 name-template: 'v$NEXT_PATCH_VERSION'
 tag-template: 'v$NEXT_PATCH_VERSION'
+exclude-labels:
+  - 'skip-changelog'
+autolabeler:
+  - label: 'skip-changelog'
+    branch:
+      - '/^dev$/'
 template: |
   ## What’s Changed
   $CHANGES
