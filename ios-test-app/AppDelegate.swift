@@ -6,7 +6,6 @@
 //  Copyright © 2019 Zomato. All rights reserved.
 //
 
-
 import UIKit
 
 @UIApplicationMain
