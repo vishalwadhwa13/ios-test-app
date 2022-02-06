@@ -13,6 +13,7 @@ jobs:
         with:
           config-name: release-drafter-config.yml
           commitish: dev
+          filter-by-commitish: true
           # disable-autolabeler: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
