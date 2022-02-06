@@ -1,7 +1,7 @@
 name-template: 'v$NEXT_PATCH_VERSION'
 tag-template: 'v$NEXT_PATCH_VERSION'
-commitish: dev
-filter-by-commitish: true
+# commitish: dev
+# filter-by-commitish: true
 # exclude-labels:
 #   - 'skip-changelog'
 # autolabeler:
